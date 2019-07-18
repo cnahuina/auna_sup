@@ -1,4 +1,4 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page2" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Principal" xmlns="sap.m">
     <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="false">
         <content>
             <IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" selectedKey="Ok">

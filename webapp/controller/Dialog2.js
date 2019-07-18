@@ -111,7 +111,7 @@ sap.ui.define([
 
 					return new Promise(function(fnResolve) {
 
-						this.doNavigate("Page2", oBindingContext, fnResolve, "");
+						this.doNavigate("Principal", oBindingContext, fnResolve, "");
 					}.bind(this));
 
 				}.bind(this))

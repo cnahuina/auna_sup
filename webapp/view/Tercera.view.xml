@@ -1,4 +1,4 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page1" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Tercera" xmlns="sap.m">
     <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
         <content>
             <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
@@ -13,11 +13,11 @@
                         </HBox>
                         <layoutData/>
                     </HBox>
-                    <HBox  alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                    <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
                         <items>
-                            <IconTabBar selectedKey="tab2"  id="mainicontab" expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" >
+                            <IconTabBar selectedKey="tab3" id="mainicontab" expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true">
                                 <items>
-                                    <IconTabFilter key="tab1" icon="sap-icon://activity-individual" iconColor="Neutral" text="Revisión N° 1" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                                    <IconTabFilter key="tab1"  icon="sap-icon://activity-individual" iconColor="Neutral" text="Revisión N° 1" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
                                         <content>
                                             <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
                                                 <infoToolbar>
@@ -58,7 +58,7 @@
                                                     <ColumnListItem type="Inactive">
                                                         <cells>
                                                             <ObjectIdentifier title="Aspirina" text="Código Producto: 232334" titleActive="false" visible="true"/>
-                                                            <MenuButton  text="Seleccionar" icon="sap-icon://message-information" width="180px"  buttonMode="Split">
+                                                            <MenuButton wrapping="wrap" text="Seleccionar" icon="sap-icon://message-information" width="180px"  buttonMode="Split">
                                                                 <menu>
                                                                     <Menu title="Menu Title">
                                                                         <items>
@@ -72,8 +72,8 @@
                                                                     </Menu>
                                                                 </menu>
                                                             </MenuButton>
-                                                            <Input value="36" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
-                                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange"/>
+                                                            <Input wrapping="wrap" value="36" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input wrapping="wrap" value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange"/>
                                                         </cells>
                                                     </ColumnListItem>
                                                     <ColumnListItem type="Inactive">
@@ -355,7 +355,7 @@
                                         </content>
                                     </IconTabFilter>
                                     <IconTabSeparator icon="" iconDensityAware="false"/>
-                                    <IconTabFilter key="tab3" icon="sap-icon://alert" iconColor="Neutral" text="Revisión N° 3" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="false" visible="true" iconDensityAware="false">
+                                    <IconTabFilter key="tab3" icon="sap-icon://alert" iconColor="Neutral" text="Revisión N° 3" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
                                         <content>
                                             <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
                                                 <infoToolbar>

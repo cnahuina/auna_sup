@@ -7,7 +7,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 ], function(BaseController, MessageBox, Dialog2, Utilities, History, Fragment) {
 	"use strict";
 
-	return BaseController.extend("com.sap.build.standard.aunaCopyCopyCopy.controller.Page1", {
+	return BaseController.extend("com.sap.build.standard.aunaCopyCopyCopy.controller.Primera", {
 		handleRouteMatched: function(oEvent) {
 			var sAppId = "App5d2df6fe45f56851c6a0a4ee";
 
@@ -50,7 +50,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			return new Promise(function(fnResolve) {
 
-				this.doNavigate("Page2", oBindingContext, fnResolve, "");
+				this.doNavigate("Principal", oBindingContext, fnResolve, "");
 			}.bind(this)).catch(function(err) {
 				if (err !== undefined) {
 					MessageBox.error(err.message);
@@ -240,7 +240,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		closeDialog3: function(){
 			this.byId("dialog4").close();
 		},
-		goPage2: function(oEvent) {
+		goPrincipal: function(oEvent) {
 
 			oEvent = jQuery.extend(true, {}, oEvent);
 			return new Promise(function(fnResolve) {
@@ -252,7 +252,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 					return new Promise(function(fnResolve) {
 
-						this.doNavigate("Page2", oBindingContext, fnResolve, "");
+						this.doNavigate("Principal", oBindingContext, fnResolve, "");
 					}.bind(this));
 
 				}.bind(this))
@@ -450,7 +450,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			return new Promise(function(fnResolve) {
 
-				this.doNavigate("Page2", oBindingContext, fnResolve, "");
+				this.doNavigate("Principal", oBindingContext, fnResolve, "");
 			}.bind(this)).catch(function(err) {
 				if (err !== undefined) {
 					MessageBox.error(err.message);
@@ -460,7 +460,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		},
 		onInit: function() {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getTarget("Page1").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
+			this.oRouter.getTarget("Primera").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
 
 			this.oModel = this.getOwnerComponent().getModel();
 

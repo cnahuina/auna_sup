@@ -1,15 +1,15 @@
 {
     "dataBinding": {
-        "/webapp/view/Page1.view.xml": {
+        "/webapp/view/Primera.view.xml": {
             "entitySet": ""
         }, 
-        "/webapp/view/Page2.view.xml": {
+        "/webapp/view/Principal.view.xml": {
             "entitySet": ""
         }, 
-        "/webapp/view/Page3.view.xml": {
+        "/webapp/view/Segunda.view.xml": {
             "entitySet": ""
         }, 
-        "/webapp/view/Page5.view.xml": {
+        "/webapp/view/Historial.view.xml": {
             "entitySet": ""
         }, 
         "/webapp/view/Dialog3.view.xml": {

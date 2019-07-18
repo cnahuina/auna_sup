@@ -23,7 +23,7 @@
             </List>
         </content>
         <beginButton>
-            <Button text="Enviar a re-conteo" type="Accept" icon="sap-icon://accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="goPage2"/>
+            <Button text="Enviar a re-conteo" type="Accept" icon="sap-icon://accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="goPrincipal"/>
         </beginButton>
         <buttons/>
         <customHeader/>

@@ -1,4 +1,4 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page1" xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Primera" xmlns="sap.m">
     <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
         <content>
             <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
@@ -7,17 +7,17 @@
                         <HBox  wrap="Wrap" alignItems="Center" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
                             <items>
                                 <Title text="Clínica Delgado " titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="true"/>
-                                <Text text="Codigo de Lista" width="auto" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
-                                <Input value="123456" type="Text" showValueHelp="false" enabled="false" visible="true" width="140.9765625px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                <Text text="Codigo de Lista" width="auto" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiSmallMargin"/>
+                                <Input value="123456" type="Text" showValueHelp="false" enabled="false" visible="true" align="center" width="140.9765625px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
                             </items>
                         </HBox>
                         <layoutData/>
                     </HBox>
                     <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
                         <items>
-                            <IconTabBar selectedKey="tab3" id="mainicontab" expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true">
+                            <IconTabBar selectedKey="tab1" id="mainicontab" expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true">
                                 <items>
-                                    <IconTabFilter key="tab1"  icon="sap-icon://activity-individual" iconColor="Neutral" text="Revisión N° 1" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                                    <IconTabFilter key="tab1" icon="sap-icon://activity-individual" iconColor="Neutral" text="Revisión N° 1" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
                                         <content>
                                             <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
                                                 <infoToolbar>
@@ -64,7 +64,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -85,7 +85,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -106,7 +106,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -127,7 +127,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -148,7 +148,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -169,7 +169,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -190,7 +190,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -211,7 +211,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -228,7 +228,7 @@
                                         </content>
                                     </IconTabFilter>
                                     <IconTabSeparator icon="" iconDensityAware="false"/>
-                                    <IconTabFilter key="tab2" icon="sap-icon://kpi-managing-my-area" iconColor="Neutral" text="Revisión N° 2" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                                    <IconTabFilter key="tab2" icon="sap-icon://kpi-managing-my-area" iconColor="Neutral" text="Revisión N° 2" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="false" visible="true" iconDensityAware="false">
                                         <content>
                                             <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
                                                 <infoToolbar>
@@ -275,7 +275,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -296,7 +296,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -317,7 +317,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -338,7 +338,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -355,7 +355,7 @@
                                         </content>
                                     </IconTabFilter>
                                     <IconTabSeparator icon="" iconDensityAware="false"/>
-                                    <IconTabFilter key="tab3" icon="sap-icon://alert" iconColor="Neutral" text="Revisión N° 3" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                                    <IconTabFilter key="tab3" icon="sap-icon://alert" iconColor="Neutral" text="Revisión N° 3" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="false" visible="true" iconDensityAware="false">
                                         <content>
                                             <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
                                                 <infoToolbar>
@@ -402,7 +402,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>
@@ -423,7 +423,7 @@
                                                                         <items>
                                                                             <MenuItem text="Validado" icon="sap-icon://message-success">
                                                                             </MenuItem>
-                                                                            <MenuItem text="No Tomar" icon="sap-icon://question-mark">
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
                                                                             </MenuItem>
                                                                             <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
                                                                             </MenuItem>

@@ -38,7 +38,7 @@
 	"sap.ui5": {
 		"_version": "1.3.0",
 		"rootView": {
-			"viewName": "generated.app.view.Page5",
+			"viewName": "generated.app.view.Historial",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -72,88 +72,88 @@
 				"controlAggregation": "pages",
 				"bypassed": {
 					"target": [
-						"Page2"
+						"Principal"
 					]
 				}
 			},
 			"targets": {
-				"Page2": {
+				"Principal": {
 					"controlAggregation": "pages",
-					"viewName": "Page2",
-					"viewId": "Page2",
+					"viewName": "Principal",
+					"viewId": "Principal",
 					"viewLevel": 1,
 					"transition": "slide"
 				},
-				"Page1": {
+				"Primera": {
 					"controlAggregation": "pages",
-					"viewName": "Page1",
-					"viewId": "Page1",
+					"viewName": "Primera",
+					"viewId": "Primera",
 					"viewLevel": 2,
 					"transition": "slide"
 				},
-				"Page3": {
+				"Segunda": {
 					"controlAggregation": "pages",
-					"viewName": "Page3",
-					"viewId": "Page3",
+					"viewName": "Segunda",
+					"viewId": "Segunda",
 					"viewLevel": 1,
 					"transition": "slide"
 				},
-				"Page4": {
+				"Tercera": {
 					"controlAggregation": "pages",
-					"viewName": "Page4",
-					"viewId": "Page4",
+					"viewName": "Tercera",
+					"viewId": "Tercera",
 					"viewLevel": 1,
 					"transition": "slide"
 				},
-				"Page5": {
+				"Historial": {
 					"controlAggregation": "pages",
-					"viewName": "Page5",
-					"viewId": "Page5",
+					"viewName": "Historial",
+					"viewId": "Historial",
 					"viewLevel": 1,
 					"transition": "slide"
 				}
 			},
 			"routes": [
 				{
-					"pattern": "Page1/:context:",
-					"name": "Page1",
+					"pattern": "Primera/:context:",
+					"name": "Primera",
 					"target": [
-						"Page1"
+						"Primera"
 					]
 				},
 				{
 					"pattern": "",
 					"name": "default",
 					"target": [
-						"Page2"
+						"Principal"
 					]
 				},
 				{
-					"pattern": "Page2/:context:",
-					"name": "Page2",
+					"pattern": "Principal/:context:",
+					"name": "Principal",
 					"target": [
-						"Page2"
+						"Principal"
 					]
 				},
 				{
-					"pattern": "Page3/:context:",
-					"name": "Page3",
+					"pattern": "Segunda/:context:",
+					"name": "Segunda",
 					"target": [
-						"Page3"
+						"Segunda"
 					]
 				},
 				{
-					"pattern": "Page4/:context:",
-					"name": "Page4",
+					"pattern": "Tercera/:context:",
+					"name": "Tercera",
 					"target": [
-						"Page4"
+						"Tercera"
 					]
 				},
 				{
-					"pattern": "Page5/:context:",
-					"name": "Page5",
+					"pattern": "Historial/:context:",
+					"name": "Historial",
 					"target": [
-						"Page5"
+						"Historial"
 					]
 				}
 			]

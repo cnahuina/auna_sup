@@ -6,7 +6,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 ], function(BaseController, MessageBox, Dialog3, Utilities, History) {
 	"use strict";
 
-	return BaseController.extend("com.sap.build.standard.aunaCopyCopyCopy.controller.Page3", {
+	return BaseController.extend("com.sap.build.standard.aunaCopyCopyCopy.controller.Tercera", {
 		handleRouteMatched: function(oEvent) {
 			var sAppId = "App5d2df6fe45f56851c6a0a4ee";
 
@@ -49,7 +49,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			return new Promise(function(fnResolve) {
 
-				this.doNavigate("Page2", oBindingContext, fnResolve, "");
+				this.doNavigate("Principal", oBindingContext, fnResolve, "");
 			}.bind(this)).catch(function(err) {
 				if (err !== undefined) {
 					MessageBox.error(err.message);
@@ -204,7 +204,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 			return new Promise(function(fnResolve) {
 
-				this.doNavigate("Page2", oBindingContext, fnResolve, "");
+				this.doNavigate("Principal", oBindingContext, fnResolve, "");
 			}.bind(this)).catch(function(err) {
 				if (err !== undefined) {
 					MessageBox.error(err.message);
@@ -214,7 +214,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		},
 		onInit: function() {
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getTarget("Page3").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
+			this.oRouter.getTarget("Segunda").attachDisplay(jQuery.proxy(this.handleRouteMatched, this));
 
 		}
 	});
