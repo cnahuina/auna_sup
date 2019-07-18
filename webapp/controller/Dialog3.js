@@ -87,7 +87,7 @@ sap.ui.define([
 			}
 
 		},
-		_onButtonPress: function(oEvent) {
+		goPrincipal: function(oEvent) {
 
 			oEvent = jQuery.extend(true, {}, oEvent);
 			return new Promise(function(fnResolve) {
