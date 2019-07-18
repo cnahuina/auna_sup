@@ -1,0 +1,136 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page5" xmlns="sap.m">
+    <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                <items>
+                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                        <items>
+                            <Title text="Clínica Delgado |" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                            <Text text="Codigo de Lista" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                            <Input value="123456" type="Text" showValueHelp="false" enabled="false" visible="true" width="140.9765625px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                    <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
+                                <infoToolbar>
+                                    <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                        <content>
+                                            <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </content>
+                                    </Toolbar>
+                                </infoToolbar>
+                                <headerToolbar/>
+                                <columns>
+                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Block" mergeDuplicates="false">
+                                        <header>
+                                            <Text text="Medicamentos" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </header>
+                                        <footer/>
+                                    </Column>
+                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                        <header>
+                                            <Text text="Estado de Conteo" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </header>
+                                        <footer/>
+                                    </Column>
+                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                        <header>
+                                            <Text text="Cantidad Operario" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </header>
+                                        <footer/>
+                                    </Column>
+                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                        <header>
+                                            <Text text="Cantidad SAP" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </header>
+                                        <footer/>
+                                    </Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Aspirina" text="48965" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Jeringa Descartable 20cc + Aguja#21" text="789564" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="39" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="39" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Preservativos con Aros Class Only Luvat" text="651651" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="42" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="42" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Clenbuvent Expectorante Forte Jarabe" text="632233" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="60" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="60" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Panadol" text="9865" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="56" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="56" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Nastifu Tableta" text="789654" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Nastizol" text="784665" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="80" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="80" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem type="Inactive">
+                                        <cells>
+                                            <ObjectIdentifier title="Tapsin" text="125632" titleActive="false" visible="true"/>
+                                            <ObjectStatus title="" text="Aprobado" state="Success" visible="true"/>
+                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                    <!-- <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Button text="Aceptar" type="Emphasized" icon="sap-icon://save" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                        </items>
+                        <layoutData/>
+                    </HBox> -->
+                </items>
+                <layoutData/>
+            </VBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

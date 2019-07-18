@@ -1,0 +1,469 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page1" xmlns="sap.m">
+    <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
+        <content>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                <items>
+                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                        <HBox  wrap="Wrap" alignItems="Center" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                            <items>
+                                <Title text="Clínica Delgado " titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="true"/>
+                                <Text text="Codigo de Lista" width="auto" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiSmallMargin"/>
+                                <Input value="123456" type="Text" showValueHelp="false" enabled="false" visible="true" align="center" width="140.9765625px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                            </items>
+                        </HBox>
+                        <layoutData/>
+                    </HBox>
+                    <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <IconTabBar selectedKey="tab1" id="mainicontab" expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true">
+                                <items>
+                                    <IconTabFilter key="tab1" icon="sap-icon://activity-individual" iconColor="Neutral" text="Revisión N° 1" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                                        <content>
+                                            <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
+                                                <infoToolbar>
+                                                    <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <content>
+                                                            <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </content>
+                                                    </Toolbar>
+                                                </infoToolbar>
+                                                <headerToolbar/>
+                                                <columns>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Medicamentos" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Estado de Conteo" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad Operario" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad SAP" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                </columns>
+                                                <items>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Aspirina" text="Código Producto: 232334" titleActive="false" visible="true"/>
+                                                            <MenuButton wrapping="wrap" text="Seleccionar" icon="sap-icon://message-information" width="180px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input wrapping="wrap" value="36" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input wrapping="wrap" value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="180px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Tapsin" text="Código Producto: 232334" titleActive="false" visible="true"/>
+                                                           <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="39" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="50" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Jeringa Descartable 20cc + Aguja#21" text="Código Producto: 232334" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="39" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="39" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Preservativos con Aros Class Only Luvat" text="Código Producto: 232334" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="25" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="42" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Clenbuvent Expectorante Forte Jarabe" text="Código Producto: 232334" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="56" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="60" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Panadol" text="Código Producto: 332334" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="56" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="56" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Nastifu Tableta" text="Código Producto: 232336" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Nastizol Forte" text="Código Producto: 232339" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="80" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="80" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                </items>
+                                            </Table>
+                                        </content>
+                                    </IconTabFilter>
+                                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                                    <IconTabFilter key="tab2" icon="sap-icon://kpi-managing-my-area" iconColor="Neutral" text="Revisión N° 2" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="false" visible="true" iconDensityAware="false">
+                                        <content>
+                                            <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
+                                                <infoToolbar>
+                                                    <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <content>
+                                                            <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </content>
+                                                    </Toolbar>
+                                                </infoToolbar>
+                                                <headerToolbar/>
+                                                <columns>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Medicamentos" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Estado de Conteo" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad Operario" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad SAP" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                </columns>
+                                                <items>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Aspirina" text="Código Producto: 48965" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange1"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Preservativos con Aros Class Only Luvat" text="Código Producto:641641" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="36" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="42" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange2"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Clenbuvent Expectorante Forte Jarabe" text="Código Producto: 632233" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="60" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="60" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange3"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Tapsin" text="Código Producto: 125632" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="50" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange4"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                </items>
+                                            </Table>
+                                        </content>
+                                    </IconTabFilter>
+                                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                                    <IconTabFilter key="tab3" icon="sap-icon://alert" iconColor="Neutral" text="Revisión N° 3" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="false" visible="true" iconDensityAware="false">
+                                        <content>
+                                            <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
+                                                <infoToolbar>
+                                                    <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                        <content>
+                                                            <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </content>
+                                                    </Toolbar>
+                                                </infoToolbar>
+                                                <headerToolbar/>
+                                                <columns>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Medicamentos" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Estado de Conteo" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad Operario" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                    <Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Block" mergeDuplicates="false">
+                                                        <header>
+                                                            <Text text="Cantidad SAP" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                        </header>
+                                                        <footer/>
+                                                    </Column>
+                                                </columns>
+                                                <items>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Preservativos con Aros Class Only Luvat" text="Código Producto: 641641" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="40" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange5"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                    <ColumnListItem type="Inactive">
+                                                        <cells>
+                                                            <ObjectIdentifier title="Tapsin" text="Código Producto: 125632" titleActive="false" visible="true"/>
+                                                            <MenuButton text="Seleccionar" icon="sap-icon://message-information" width="192px"  buttonMode="Split">
+                                                                <menu>
+                                                                    <Menu title="Menu Title">
+                                                                        <items>
+                                                                            <MenuItem text="Validado" icon="sap-icon://message-success">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="No Tomar" icon="sap-icon://sys-cancel">
+                                                                            </MenuItem>
+                                                                            <MenuItem text="Enviar a re validación" icon="sap-icon://message-error">
+                                                                            </MenuItem>
+                                                                        </items>
+                                                                    </Menu>
+                                                                </menu>
+                                                            </MenuButton>
+                                                            <Input value="48" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                            <Input value="50" type="Text" showValueHelp="false" enabled="false" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" liveChange="_onInputLiveChange6"/>
+                                                        </cells>
+                                                    </ColumnListItem>
+                                                </items>
+                                            </Table>
+                                        </content>
+                                    </IconTabFilter>
+                                </items>
+                                <content>
+                                    <Text text="Tab Bar Content goes here ..." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </content>
+                            </IconTabBar>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                </items>
+                <layoutData/>
+            </VBox>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Transparent" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer/>
+                    <Button text="Guardar" type="Accept" icon="sap-icon://save" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                    <ToolbarSpacer/>
+                    <Button text="Cancelar" type="Reject" icon="sap-icon://sys-cancel" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                    <ToolbarSpacer/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

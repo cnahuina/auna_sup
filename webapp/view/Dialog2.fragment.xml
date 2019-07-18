@@ -1,0 +1,43 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Dialog2" xmlns="sap.m">
+    <Dialog id="dialog2" contentHeight="auto" contentWidth="100%" horizontalScrolling="true" showHeader="true" state="None" stretch="false" title="Confirmación gestión de stock productos" type="Standard" verticalScrolling="true" class="sapUiResponsiveContentPadding">
+        <content>
+            <List width="auto" headerText="" footerText="" backgroundDesign="Solid" growing="false" growingThreshold="20" growingScrollToLoad="true" visible="true">
+                <items>
+                    <NotificationListItem title="Jeringa Descartable 20cc + Aguja#21 | Panadol | Nastifu Tableta | Nastizol Forte" description="Conteo completo" authorName="Aldo Perez" authorPicture="sap-icon://product" datetime="16/07/2019 12:23" priority="Low" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" close="_onNotificationListItemClose">
+                        <buttons/>
+                        <processingMessage>
+                            <MessageStrip text="Conteos Aprobados" type="Success" showIcon="true" showCloseButton="false" visible="true">
+                                <link/>
+                            </MessageStrip>
+                        </processingMessage>
+                    </NotificationListItem>
+                    <NotificationListItem title="Preservativos con aros Class Only Luvat  (#2525)" description="No se considera conteo" authorName="Aldo Perez" authorPicture="sap-icon://product" datetime="16/07/2019 12:23" priority="Medium" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" close="_onNotificationListItemClose1">
+                        <buttons/>
+                        <processingMessage>
+                            <MessageStrip text="Conteos No Tomados" type="Warning" showIcon="true" showCloseButton="false" visible="true">
+                                <link/>
+                            </MessageStrip>
+                        </processingMessage>
+                    </NotificationListItem>
+                    <NotificationListItem title="Aspirina | Tapsin | Clenbuvent Expectorante Forte Jarabe " description="Se envía a re conteo" authorName="Aldo Perez" authorPicture="sap-icon://product" datetime="16/07/2019 12:23" priority="High" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" close="_onNotificationListItemClose2">
+                        <buttons/>
+                        <processingMessage>
+                            <MessageStrip text="Conteos para validar" type="Error" showIcon="true" showCloseButton="false" visible="true">
+                                <link/>
+                            </MessageStrip>
+                        </processingMessage>
+                    </NotificationListItem>
+                </items>
+            </List>
+        </content>
+        <beginButton>
+            <Button text="Procesar" type="Accept" icon="sap-icon://accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="goPage2"/>
+        </beginButton>
+        <buttons/>
+        <customHeader/>
+        <endButton>
+            <Button text="Cerrar" type="Reject" icon="sap-icon://sys-cancel-2" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="closeDialog"/>
+        </endButton>
+        <subHeader/>
+    </Dialog>
+</core:FragmentDefinition>

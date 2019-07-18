@@ -1,0 +1,31 @@
+{
+    "dataBinding": {
+        "/webapp/view/Page1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Page2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Page3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Page5.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Dialog3.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Popover2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Dialog2.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Dialog1.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Popover1.view.xml": {
+            "entitySet": ""
+        } 
+    }
+}

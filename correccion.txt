@@ -1,0 +1,30 @@
+pendientes
+filtro fecha usuario y centro
+
+estados:
+n
+
+enviar a revalidación
+
+colocar iconos
+botones en footer
+dialogo
+boton procesar
+
+
+
+Aspirina
+Panadol
+Nastifu Tableta
+Nastizol
+
+Jeringa Descartable 20cc + Aguja#21
+Clenbuvent Expectorante Forte Jarabe
+Tapsin
+
+Preservativos con Aros Class Only Luvat
+
+
+message-success
+question-mark
+	

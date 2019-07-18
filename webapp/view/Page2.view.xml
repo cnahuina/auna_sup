@@ -1,0 +1,45 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Page2" xmlns="sap.m">
+    <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="false">
+        <content>
+            <IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" selectedKey="Ok">
+                <items>
+                    <IconTabFilter icon="sap-icon://hint" iconColor="Positive" text="Pendientes" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <SearchField  liveChange="onSearch" placeholder="Buscar" showSearchButton="true" visible="true" width="auto" class="sapUiTinyMargin"/>
+                            <List id="idList" items="{path: '/'}" width="auto" headerText="Listas Pendientes" footerText="" backgroundDesign="Solid" growing="true" growingThreshold="20" growingScrollToLoad="true" visible="true" class="sapUiResponsiveMargin">
+                                <NotificationListItem  press="_onButtonPress" title="{titulo}" description="{description}" authorName="{authorName}"  datetime="{datetime}" priority="{priority}" authorPicture="sap-icon://building" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true"/>
+                               
+                            </List>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                    <IconTabFilter icon="sap-icon://attachment" iconColor="Neutral" text="Historial" count="3" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <List width="auto" headerText="Historial de Validación" footerText="" backgroundDesign="Solid" growing="true" growingThreshold="20" growingScrollToLoad="true" visible="true" class="sapUiResponsiveMargin">
+                                <items>
+                                    <NotificationListItem title="Clínica Delgado" description="Lista 123456" authorName="Kassiel Cons" authorPicture="sap-icon://building" datetime="15-07-2019 17:59:50" priority="None" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" press="_onButtonPress2">
+                                        <processingMessage/>
+                                    </NotificationListItem>
+                                    <NotificationListItem title="Clínica Delgado" description="Lista 005465" authorName="Leonel Const" authorPicture="sap-icon://building" datetime="14-07-2019 13:10:22" priority="None" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" press="_onButtonPress2">
+                                        <processingMessage/>
+                                    </NotificationListItem>
+                                    <NotificationListItem title="Clínica Vallesur" description="Lista 000125" authorName="Sergio Caico" authorPicture="sap-icon://building" datetime="14-07-2019 12:50:59" priority="None" unread="true" truncate="true" hideShowMoreButton="false" showCloseButton="false" visible="true" press="_onButtonPress2">
+                                        <processingMessage/>
+                                    </NotificationListItem>
+                                </items>
+                            </List>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                </items>
+                <content>
+                    <Text text="Tab Bar Content goes here ..." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                </content>
+            </IconTabBar>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
