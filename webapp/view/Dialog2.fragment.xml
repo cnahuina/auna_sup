@@ -36,7 +36,7 @@
         <buttons/>
         <customHeader/>
         <endButton>
-            <Button text="Cerrar" type="Reject" icon="sap-icon://sys-cancel-2" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="closeDialog"/>
+            <Button text="Cerrar" type="Reject" icon="sap-icon://sys-cancel-2" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiResponsiveMargin" press="close"/>
         </endButton>
         <subHeader/>
     </Dialog>

@@ -1,0 +1,73 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Login" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core">
+    <Page showHeader="true"  showFooter="true" showNavButton="false" >
+    <customHeader>
+            <Bar>
+                <contentMiddle>
+                    <Image src="/webapp/resources/logo_Auna.png" height="auto" width="150px"  visible="true" densityAware="false"/>
+                </contentMiddle>
+            </Bar>
+		</customHeader>
+        <content>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="100%" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <layout:BlockLayout background="Dashboard" visible="true">
+                        <layout:content>
+                            <layout:BlockLayoutRow scrollable="false">
+                                <layout:content>
+                                    <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                        <layout:content>
+                                            <VBox class="CellContent" alignItems="Center" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <Image src="/webapp/resources/usuario.png" height="150px" width="150px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+                                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                                                        <items>
+                                                            <core:Icon color= "aquamarine" src="sap-icon://person-placeholder" size="48px" height="48px" width="48px" visible="true"/>
+                                                            <Input placeholder="Usuario" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </HBox>
+                                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                                                        <items>
+                                                            <core:Icon color= "aquamarine" src="sap-icon://locked" size="48px" height="48px" width="48px" visible="true"/>
+                                                            <Input placeholder="Contraseña" type="Password" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </HBox>
+                                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                        <items>
+                                                            <Button text="Ingresar" type="Emphasized" iconFirst="true" width="240px" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </HBox>
+                                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceAround" renderType="Div" visible="true" displayInline="false">
+                                                        <items>
+                                                            <CheckBox text="Recordar" selected="false" editable="true" enabled="true" visible="true" width="auto" textDirection="Inherit" wrapping="false" useEntireWidth="true"/>
+                                                            <ToolbarSpacer width="40px"/>
+                                                            <Link text="Olvidaste la contraseña" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </HBox>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                        </layout:content>
+                                    </layout:BlockLayoutCell>
+                                </layout:content>
+                            </layout:BlockLayoutRow>
+                        </layout:content>
+                    </layout:BlockLayout>
+                </items>
+                <layoutData/>
+            </VBox>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <ToolbarSpacer width=""/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        
+    </Page>
+</mvc:View>

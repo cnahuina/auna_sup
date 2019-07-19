@@ -1,5 +1,5 @@
 .back{
-    background-image:url();
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -7,3 +7,13 @@
 .contenedor{
     flex-wrap: wrap;
   }
+.login{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: aquamarine;
+}
+.CellContent{
+    color: aquamarine;
+}

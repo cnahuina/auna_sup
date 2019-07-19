@@ -77,6 +77,13 @@
 				}
 			},
 			"targets": {
+				"Login": {
+					"controlAggregation": "pages",
+					"viewName": "Login",
+					"viewId": "Login",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
 				"Principal": {
 					"controlAggregation": "pages",
 					"viewName": "Principal",
@@ -115,19 +122,27 @@
 			},
 			"routes": [
 				{
-					"pattern": "Primera/:context:",
-					"name": "Primera",
+					"pattern": "Login/:context:",
+					"name": "Login",
 					"target": [
-						"Primera"
+						"Login"
 					]
 				},
 				{
 					"pattern": "",
 					"name": "default",
 					"target": [
-						"Principal"
+						"Login"
 					]
 				},
+				{
+					"pattern": "Primera/:context:",
+					"name": "Primera",
+					"target": [
+						"Primera"
+					]
+				},
+				
 				{
 					"pattern": "Principal/:context:",
 					"name": "Principal",

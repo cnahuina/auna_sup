@@ -87,6 +87,20 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 			}
 
 		},
+		_onPageNavButtonPress: function(oEvent) {
+
+			var oBindingContext = oEvent.getSource().getBindingContext();
+
+			return new Promise(function(fnResolve) {
+
+				this.doNavigate("Login", oBindingContext, fnResolve, "");
+			}.bind(this)).catch(function(err) {
+				if (err !== undefined) {
+					MessageBox.error(err.message);
+				}
+			});
+
+		},
 		_onButtonPress: function(oEvent) {
 			var oBindingContext = oEvent.getSource().getBindingContext();
 
