@@ -1,13 +1,18 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.aunaCopyCopyCopy.controller.Historial" xmlns="sap.m">
     <Page showHeader="true" title="Aldo Perez - Supervisor" showFooter="true" showNavButton="true" navButtonPress="_onPageNavButtonPress">
-        <content>
-            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
-                <items>
-                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
-                        <items class="contenedor">
-                            <Title text="Clínica Delgado |" titleStyle="H1" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
-                            <Text  text="Codigo de Lista" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+        <content >
+            <VBox  align-content="flex-start" alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                <items >
+                    <HBox  wrap="Wrap" alignContent="Start" alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                    
+                        <items>
+                            <Title width="200px" text="Clínica Delgado" titleStyle="H1"  textAlign="Begin" visible="true" wrapping="false"/>
+                            <HBox width="200px" align-content="flex-start" alignItems="flex-start" direction="Row" fitContainer="false"  height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
+                            <Text text="Codigo de Lista" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+                            </HBox>
+                            <HBox width="200px" align-content="flex-start" alignItems="flex-start" direction="Row" fitContainer="false"  height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiResponsiveMargin">
                             <Input value="123456" type="Text" showValueHelp="false" enabled="false" visible="true" width="140.9765625px" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+                            </HBox>
                         </items>
                         <layoutData/>
                     </HBox>

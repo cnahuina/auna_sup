@@ -5,5 +5,5 @@
     background-position: center center;
 }
 .contenedor{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
